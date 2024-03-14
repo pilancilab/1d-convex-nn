@@ -4,7 +4,7 @@ Code for our paper "A Library of Mirrors: Deep Neural Nets in Low Dimensions are
 
 The training problem for a ReLU neural network $f(\theta;{\mathbf{X}})$ parameterized by $\theta$, trained on a 1-D training matrix $\mathbf{X} \in \mathbb{R}^N$ consisting of $N$ samples, and label vector $\mathbf{y}\in \mathbb{R}^N$, is
 
-$$	\min_{\theta \in \Theta}  $$.
+$$	\min $$.
 
 The weights are regularized with the $l_L$ penalty $ \||{\theta}_w||_{L}^{L} $.  
 
