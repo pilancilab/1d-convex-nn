@@ -2,7 +2,7 @@
 
 Code for our paper "A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features" (https://arxiv.org/abs/2403.01046#). This paper shows that training neural networks with 1-D data is equivalent to solving a Lasso problem with an explicit and simple dictionary.
 
-The training problem for a ReLU neural network $f(\theta;{\mathbf{X}})$ parameterized by $\theta$, trained on a 1-D training matrix $\mathbf{X} \in \mathbb{R}^N$ consisting of $N$ samples, and label vector $\mathbf{y}\in \mathbb{R}^N$, is $\min_{\theta \in \Theta} \frac{1}{2} \|| f(\theta;{\mathbf{X}})  - \mathbf{y} \||^2_2 + \frac{\beta}{L}\||{{\theta}_{w}}||_{L}^{L}$
+The training problem for a ReLU neural network $f(\theta;{\mathbf{X}})$ parameterized by $\theta$, trained on a 1-D training matrix $\mathbf{X} \in \mathbb{R}^N$ consisting of $N$ samples, and label vector $\mathbf{y}\in \mathbb{R}^N$, is $\min_{\theta \in \Theta} \frac{1}{2} \|| f(\theta;{\mathbf{X}})  - \mathbf{y} \||^2_2 + \frac{\beta}{L}\||{{\theta}_{k}}||_{L}^{L}$
 
 $$\min_{\theta \in \Theta}  \frac{1}{2} \|| f(\theta;{\mathbf{X}})  - \mathbf{y} \||^2_2 + \frac{\beta}{L}  \||{\theta}_w||_{L}^{L}$$.
 
