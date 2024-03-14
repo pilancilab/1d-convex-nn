@@ -1,4 +1,4 @@
-# 1dnn
+# 1d-convex-nn
 
 Code for our paper "A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features" (https://arxiv.org/abs/2403.01046#). This paper shows that training neural networks with 1-D data is equivalent to solving a Lasso problem with an explicit and simple dictionary.
 
