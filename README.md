@@ -6,7 +6,7 @@ The training problem for a ReLU neural network $f(\theta;{\mathbf{X}})$ paramete
 
 $$\min_{\theta \in \Theta}  \frac{1}{2} \|| f(\theta;{\mathbf{X}})  - \mathbf{y} \||^2_2 + \frac{\beta}{L}  \||\tilde{\theta}||_{L}^{L}$$.
 
-The weights are regularized with the $l_L$ penalty $ \||\tilde{\theta}||_{L}^{L} $.  
+The weights are regularized with the $l_L$ penalty $ \frac{\beta}{L}  \||\tilde{\theta}||_{L}^{L}$.  
 
 We show this non-convex training problem is equivalent to the Lasso problem
 
