@@ -4,6 +4,6 @@ Code for our paper "A Library of Mirrors: Deep Neural Nets in Low Dimensions are
 
 In other words, for ReLu networks,
 
-$$	\min_{\theta \in \Theta}  \frac{1}{2} \| f(\theta;{\mathbf{X}})  - \mathbf{y} \|^2_2 + \frac{\beta}{L}  \|\regparams\|_{L}^{L} $$
+$$	\min_{\theta \in \Theta}  \frac{1}{2} \| f(\theta;{\mathbf{X}})  - \mathbf{y} \|^2_2 + \frac{\beta}{L}  \|\theta_w|_{L}^{L} $$
 
 The files ```Fig2.ipynb```, ```Fig3.ipynb```, ```Fig18.ipynb```, and ```Fig19.ipynb``` in the directory ```/code``` contain the code for Figures 2,3,18, and 19 in the paper. The files ```Nonconvex_training.ipynb``` and ```convex_training.ipynb``` contain code for training 1D ReLU networks using the conventional, non-convex training problem and our equivalent convex, Lasso problem, respectively.
